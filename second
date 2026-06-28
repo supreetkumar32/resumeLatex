@@ -83,7 +83,7 @@ Backend Software Engineer with experience in Java, Spring Boot, and Microservice
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Bachelor Of Engineering in Computer Science}{Graduated: 2023}
+    {Bachelor of Engineering in Computer Science}{Graduated: 2023}
     {Bangalore Institute of Technology}{CGPA: 9.1 / 10}
 \resumeSubHeadingListEnd
 
@@ -94,7 +94,7 @@ Backend Software Engineer with experience in Java, Spring Boot, and Microservice
 \textbf{Backend:} RESTful APIs, Microservices \\
 \textbf{Database:} PostgreSQL \\
 %\textbf{Messaging:} Apache Kafka \\
-\textbf{Tools \& Platforms:} Git, Bitbucket, Jira, Postman, Swagger, Docker, Maven
+\textbf{Tools \& Platforms:} Git, Bitbucket, Jira, Postman, Swagger, Docker, Maven, Selenium
 
 %-----------INTERNSHIP-----------
 \section{Work Experience}
