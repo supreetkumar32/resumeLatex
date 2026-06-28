@@ -1,0 +1,153 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Supreet Kumar} \\ \vspace{4pt}
+
+    +91-9661330382 \hspace{0.4em}\textbar\hspace{0.4em}
+    Bangalore \hspace{0.4em}\textbar\hspace{0.4em}
+    \href{mailto:supreetkumar32@gmail.com}{\underline{supreetkumar32@gmail.com}}
+    \hspace{0.4em}\textbar\hspace{0.4em}
+    \href{https://www.linkedin.com/in/supreet-kumar-6ba8071b7/}{\underline{LinkedIn}}
+    \hspace{0.4em}\textbar\hspace{0.4em}
+    \href{https://github.com/supreetkumar32}{\underline{GitHub}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+Backend Software Engineer with experience in Java, Spring Boot, and Microservices architecture. Skilled in designing and developing scalable REST APIs and database optimization with PostgreSQL and Hibernate.
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor Of Engineering in Computer Science}{Graduated: 2023}
+    {Bangalore Institute of Technology}{CGPA: 9.1 / 10}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\textbf{Languages:} Java, JavaScript, HTML, CSS, SQL  \\
+\textbf{Frameworks:} Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Spring Security, Kafka  \\
+\textbf{Backend:} RESTful APIs, Microservices \\
+\textbf{Database:} PostgreSQL \\
+%\textbf{Messaging:} Apache Kafka \\
+\textbf{Tools \& Platforms:} Git, Bitbucket, Jira, Postman, Swagger, Docker, Maven
+
+%-----------INTERNSHIP-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Software Engineer}{July 2023 -- Present}
+    {Bosch Global Software Technologies}{}
+    \resumeItemListStart
+      \resumeItem{Built and maintained scalable backend services using \textbf{Java, Spring Boot, Spring Data JPA, Hibernate, and PostgreSQL}, supporting \textbf{30K+ users} while optimizing database performance through \textbf{pagination, indexing, and custom repository methods}.}
+      \resumeItem{Optimized database queries and API performance by implementing efficient query design, indexing strategies, and pagination, improving application responsiveness under high user load.}
+      \resumeItem{Collaborated with cross-functional teams to migrate a \textbf{monolithic application to a microservices architecture}, improving system scalability, reliability, and maintainability.}
+      \resumeItem{Migrated source code repositories from \textbf{Bitbucket} to \textbf{Git}, ensuring version history preservation and minimal disruption to the development workflow.}
+     \resumeItem{Developed custom \textbf{Jira Plugins} using \textbf{Java, Atlassian SDK, Maven, and REST APIs} to support enterprise workflows, and implemented \textbf{Selenium-based automated test cases} to validate plugin features.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{HotelHub} $|$ \emph{Spring Boot, PostgreSQL, Stripe API }}{\href{https://github.com/supreetkumar32/HotelHub-Project}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{ Developed a production-grade \textbf{RESTful Hotel Booking System} using \textbf{Spring Boot and PostgreSQL.}}
+        \resumeItem{Implemented secure \textbf{authentication} and \textbf{authorization} using \textbf{Spring Security, JWT,} and \textbf{Role-Based Access Control.}}
+        \resumeItem{Designed a \textbf{dynamic pricing engine} using \textbf{Spring Scheduler} and background batch processing.}
+        \resumeItem{Optimized search performance using \textbf{denormalized tables} and reduced expensive \textbf{JOIN} operations.}
+        \resumeItem{Integrated \textbf{Stripe payment gateway} with \textbf{webhook-based payment processing} and refund handling.}
+        \resumeItem{Ensured concurrency control using \textbf{pessimistic locking} and transactional consistency.}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{LinkedInApp} $|$ \emph{Microservice, Spring Boot, PostgreSQL, Neo4j, Kafka, Eureka, Zipkin, ELK Stack }}
+      {\href{https://github.com/supreetkumar32/LinkedInApp}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{\textbf{Architected} a distributed social networking platform using \textbf{Spring Boot Microservices, Spring Cloud Gateway,} and \textbf{Netflix Eureka}, implementing a custom \textbf{JWT Authentication Filter} with \textbf{HMAC-SHA} token validation and secure user context propagation via request headers.}
+        \resumeItem{\textbf{Engineered} an \textbf{event-driven notification system} using \textbf{Apache Kafka}, enabling asynchronous, real-time communication between microservices and improving system scalability and decoupling.}
+        \resumeItem{Created a graph-based social connection service using \textbf{Neo4j, Spring Data Neo4j}, and custom \textbf{Cypher queries} to manage user relationships, while leveraging \textbf{PostgreSQL} for authentication, user management, and post services.}
+        \resumeItem{\textbf{Implemented} end-to-end observability using \textbf{Zipkin Distributed Tracing, OpenFeign}, and \textbf{structured logging (ELK-compatible)} to monitor inter-service communication and troubleshoot distributed requests.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------
+\section{Awards \& Certifications}
+
+\begin{itemize}[leftmargin=0.15in,label={--},itemsep=0pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+    \item Solved \textbf{450+} coding problems on
+    \href{https://www.geeksforgeeks.org/profile/supreetkumar32?tab=activity}{GeeksforGeeks}
+    and
+    \href{https://leetcode.com/problemset/}{LeetCode}.
+
+    \item Awarded \textbf{Top Learner} in
+    \href{https://drive.google.com/drive/folders/1Q4Xsww5RTJ4DI8XOgnnw44XmZ4iu9JPG}{Udemy}
+    and \href{https://drive.google.com/drive/folders/1Q4Xsww5RTJ4DI8XOgnnw44XmZ4iu9JPG}{Best Tyro}
+    from the department.
+\end{itemize}
+
+\end{document}
